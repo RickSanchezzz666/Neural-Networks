@@ -10,7 +10,7 @@ def handle_message(update, context):
     context.bot.send_message(chat_id=chat_id, text=response)
 
 
-bot_token = '6668740803:AAGLqtilUw1sv4MwftOxc7V9dfoqtFFXbVg'
+bot_token = 'token'
 bot = telegram.Bot(token=bot_token)
 updater = Updater(token=bot_token, use_context=True)
 dispatcher = updater.dispatcher
